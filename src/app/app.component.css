@@ -1,0 +1,162 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #35a9fc;
+  height: 98.5vh;
+  width: 100%;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  background-color: #ffffff;
+  width: 30rem;
+  height: 42rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 2.5rem;
+  margin-top: 2rem;
+}
+
+.title .logo {
+  background-color: #35a9fc;
+  color: #ffffff;
+  border-radius: 50%;
+  height: 5.5rem;
+  width: 5.5rem;
+  text-align: center;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Courgette', cursive;
+}
+
+.title .name {
+  color: #35a9fc;
+  font-size: 4rem;
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+}
+
+.label_signin {
+  font-size: 1.7rem;
+  padding-bottom: 0.4rem;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+  color: #414349;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group--label {
+  font-size: 1rem;
+  padding: 0.7rem 0;
+  color: #414247;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.form-group--input {
+  font-size: 1.2rem;
+  padding: 0.7rem;
+  border-radius: 3px;
+  text-decoration: none;
+  border: 1px solid #6c6d70;
+  margin-bottom: 1rem;
+}
+
+.form-group-check {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 0.5rem;
+}
+
+.form-group--checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 1.2rem;
+  width: 1.2rem;
+  border: 1px solid #6c6d70;
+  border-radius: 5px;
+  outline: 0;
+}
+
+.form-group--checkbox-label {
+  padding: 0 0.5rem;
+  font-size: 1rem;
+  color: #414247;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.form-group--checkbox:checked {
+  height: 1.2rem;
+  width: 1.2rem;
+  border-radius: 5px;
+  background-color: #35a9fc;
+}
+
+.button {
+  margin-top: 3rem;
+  background-color: #35a9fc;
+  padding: 1.5rem;
+  border-radius: 5px;
+  position: relative;
+}
+
+.button .button-signIn {
+  text-decoration: none;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.forget {
+  margin-top: 1.5rem;
+  position: relative;
+}
+
+.forget--uname {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 1rem;
+  text-decoration: none;
+  color: #35a9fc;
+}
+
